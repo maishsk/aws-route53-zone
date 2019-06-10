@@ -1,0 +1,19 @@
+galaxy_info:
+  author: Maish Saidel-Keesing
+  description: Create a route53 zone role
+  license: license (BSD)
+  min_ansible_version: 2.4
+  role_name: aws-route53-zone
+  platforms:
+  - name: EL
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  galaxy_tags:
+    - aws
+    - role
+    - route53
+    - DNS
+    - zone

@@ -1,0 +1,5 @@
+---
+- name: Delete a Route53 zone
+  route53_zone:
+    zone: "{{ route53_zone_name }}"
+    state: absent

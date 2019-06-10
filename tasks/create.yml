@@ -1,0 +1,8 @@
+---
+- name: Create a Route53 zone
+  route53_zone:
+    zone: "{{ route53_zone_name }}"
+    vpc_id: "{{ route53_vpc_id | default (omit) }}"
+    vpc_region: "{{ route53_vpc_region | default (omit) }}"
+    comment: "{{ route53_comment }}"
+    state: present
