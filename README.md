@@ -70,11 +70,14 @@ For a public zone:
 route53_zone_name: maishsk.local
 route53_comment: This is my zone
 ```
+
 For a private zone:
+```
 route53_zone_name: maishsk.local
 route53_comment: This is my zone
 route53_vpc_id: vpc-1234567890
 route53_vpc_region: us-east-2
+```
 
 ## Running the playbook
 
