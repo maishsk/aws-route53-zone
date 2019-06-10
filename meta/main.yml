@@ -15,5 +15,5 @@ galaxy_info:
     - aws
     - role
     - route53
-    - DNS
+    - dns
     - zone
